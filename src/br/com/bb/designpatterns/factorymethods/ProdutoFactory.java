@@ -2,7 +2,11 @@ package br.com.bb.designpatterns.factorymethods;
 
 public class ProdutoFactory {
 
-    public static Produto getInstance(){
+    public static Produto getInstance(){ // static factory method
+        return new Produto();
+    }
+
+    public Produto getInstance2(){
         return new Produto();
     }
 

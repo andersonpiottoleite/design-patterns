@@ -22,6 +22,8 @@ public class TesteCriacaoProduto {
 
         Produto produto = ProdutoFactory.getInstance();
 
+        new ProdutoFactory().getInstance2();
+
 
     }
 

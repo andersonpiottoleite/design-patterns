@@ -27,10 +27,10 @@ public class TestePessoa {
 
         Pessoa pessoa3 = new Pessoa.PessoaBuilderInterno()
                 .sobreNome("Piotto 2")
-                .nome("Anderson 2")
                 .dataNascimento("12/03/1985")
-                .documento("35461848889")
+                .nome("Anderson 2")
                 .apelido("Careca")
+                .documento("35461848889")
                 .build();
 
         System.out.println(pessoa3);

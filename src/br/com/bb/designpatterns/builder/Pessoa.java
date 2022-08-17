@@ -78,7 +78,7 @@ public class Pessoa {
                 '}';
     }
 
-    static class PessoaBuilderInterno {
+    public static class PessoaBuilderInterno {
 
         private String nome;
         private String sobreNome;
