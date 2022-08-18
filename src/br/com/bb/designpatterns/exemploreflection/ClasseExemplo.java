@@ -42,5 +42,8 @@ public class ClasseExemplo {
         for (int i = 0; i < constructors.length; i++) {
             System.out.println(constructors[i]);
         }
+
+        Constructor<?> constructor = ClasseExemplo.class.getConstructor();
+        System.out.println(constructor);
     }
 }

@@ -4,25 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3402e61b-7da1-4262-917b-8417a7bf0ee1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/AgendaSingletonEAGER.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/AgendaSingletonEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/AgendaSingletonLAZY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/TesteAgenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/TesteAgendaSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/exemploreflection/ClasseExemplo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/proxy/NovoPessoaRepositoryProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/proxy/PessoaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/proxy/PessoaRepositoryProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/proxy/PessoaRepositoryProxyI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/proxy/PessoaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/proxy/PessoaTest.java" afterDir="false" />
+    <list default="true" id="3402e61b-7da1-4262-917b-8417a7bf0ee1" name="Changes" comment="Outros Patterns">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bb/designpatterns/builder/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/builder/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bb/designpatterns/builder/TestePessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/builder/TestePessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bb/designpatterns/factorymethods/ProdutoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/factorymethods/ProdutoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bb/designpatterns/factorymethods/TesteCriacaoProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/factorymethods/TesteCriacaoProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/AgendaSingletonLAZY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/AgendaSingletonLAZY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/TesteAgendaSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/TesteAgendaSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/bb/designpatterns/exemploreflection/ClasseExemplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/exemploreflection/ClasseExemplo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.bb.designpatterns.proxy" />
@@ -72,7 +62,7 @@
       <recent name="br.com.bb.designpatterns.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PessoaTest">
+  <component name="RunManager" selected="Application.TesteAgendaSingleton">
     <configuration name="ClasseExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.bb.designpatterns.exemploreflection.ClasseExemplo" />
       <module name="DesignPatterns" />
@@ -140,9 +130,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PessoaTest" />
-        <item itemvalue="Application.ClasseExemplo" />
         <item itemvalue="Application.TesteAgendaSingleton" />
+        <item itemvalue="Application.ClasseExemplo" />
+        <item itemvalue="Application.PessoaTest" />
         <item itemvalue="Application.TesteAgenda" />
         <item itemvalue="Application.TesteCriacaoProduto" />
       </list>
@@ -160,8 +150,16 @@
       <workItem from="1660591652531" duration="5937000" />
       <workItem from="1660703560250" duration="2604000" />
       <workItem from="1660754526036" duration="663000" />
-      <workItem from="1660759377508" duration="10061000" />
+      <workItem from="1660759377508" duration="14265000" />
     </task>
+    <task id="LOCAL-00001" summary="Outros Patterns">
+      <created>1660770639995</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660770639995</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,15 +176,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/AgendaSingletonLAZY.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Outros Patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Outros Patterns" />
   </component>
 </project>

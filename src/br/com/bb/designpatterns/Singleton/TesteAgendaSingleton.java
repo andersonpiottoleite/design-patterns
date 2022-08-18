@@ -7,7 +7,11 @@ public class TesteAgendaSingleton {
 
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         /*System.out.println(AgendaSingletonEAGER.getINSTANCE());
-        System.out.println(AgendaSingletonEAGER.getINSTANCE());*/
+        System.out.println(AgendaSingletonEAGER.getINSTANCE());
+
+        reservaDiaEAGER("Segunda");
+        reservaDiaEAGER("Terca");
+        */
 
         /*System.out.println(AgendaSingletonLAZY.getInstance());
         System.out.println(AgendaSingletonLAZY.getInstance());
@@ -30,7 +34,7 @@ public class TesteAgendaSingleton {
         System.out.println(agendaSingletonEnumMaldoso);*/
 
         reservaDiaEnum("Segunda");
-        reservaDiaEnum("Terca");
+        reservaDiaEnum("Terca");/**/
 
 
     }

@@ -1,5 +1,8 @@
 package br.com.bb.designpatterns.Singleton;
 
+import java.lang.reflect.ReflectPermission;
+import java.security.Permission;
+import java.security.Policy;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -10,6 +13,8 @@ public class AgendaSingletonLAZY {
 
     private static AgendaSingletonLAZY instance;
 
+
+
     private AgendaSingletonLAZY(){
         diasDisponiveis.put("Domingo", Boolean.TRUE);
         diasDisponiveis.put("Segunda", Boolean.TRUE);
@@ -19,6 +24,8 @@ public class AgendaSingletonLAZY {
         diasDisponiveis.put("Sexta", Boolean.TRUE);
         diasDisponiveis.put("Sabado", Boolean.TRUE);
     }
+
+
 
     public static AgendaSingletonLAZY getInstance() {
         if(Objects.isNull(instance)){
