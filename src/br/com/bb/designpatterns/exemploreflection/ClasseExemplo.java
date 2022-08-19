@@ -9,6 +9,7 @@ public class ClasseExemplo {
     public ClasseExemplo(){}
 
     public ClasseExemplo(String atributo1) {
+
         this.atributo1 = atributo1;
     }
 
@@ -42,6 +43,8 @@ public class ClasseExemplo {
         for (int i = 0; i < constructors.length; i++) {
             System.out.println(constructors[i]);
         }
+
+        System.out.println("-----------------------------------------");
 
         Constructor<?> constructor = ClasseExemplo.class.getConstructor();
         System.out.println(constructor);

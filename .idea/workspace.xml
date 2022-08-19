@@ -5,11 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3402e61b-7da1-4262-917b-8417a7bf0ee1" name="Changes" comment="Outros Patterns">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/adapter/ClientAdapterOperacoesContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/adapter/ClientJarOperacoesContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/adapter/JarOperacoesContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/adapter/OperacoesContaCorrenteAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/adapter/TesteOperacoesContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/adapter/TesteOperacoesContaCorrenteADapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/strategy/CalculadorReajusteAnualSalario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/strategy/CalculadorReajusteAnualSalarioCLT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/strategy/CalculadorReajusteAnualSalarioEstagio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/strategy/CalculadorReajusteAnualSalarioPJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/strategy/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/strategy/ReajusteAnualSalario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/strategy/TesteAjusteSalarioComStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/strategy/TesteAjusteSalarioSemStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/strategy/TipoContratacaoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/templatemethod/ReparoVeiculoComumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/templatemethod/ReparoVeiculoDeLuxoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/templatemethod/ReparoVeiculoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/templatemethod/TesteReparoVeiculos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/templatemethod/VeiculoParaReparo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/AgendaSingletonLAZY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/AgendaSingletonLAZY.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/TesteAgendaSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/TesteAgendaSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/bb/designpatterns/exemploreflection/ClasseExemplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/exemploreflection/ClasseExemplo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/bb/designpatterns/proxy/PessoaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bb/designpatterns/proxy/PessoaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +42,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,6 +67,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,12 +80,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.bb.designpatterns.adapter" />
+      <recent name="br.com.bb.designpatterns.templatemethod" />
+      <recent name="br.com.bb.designpatterns.strategy" />
       <recent name="br.com.bb.designpatterns.proxy" />
       <recent name="br.com.bb.designpatterns.Singleton" />
-      <recent name="br.com.bb.designpatterns.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteAgendaSingleton">
+  <component name="RunManager" selected="Application.TesteReparoVeiculos">
     <configuration name="ClasseExemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.bb.designpatterns.exemploreflection.ClasseExemplo" />
       <module name="DesignPatterns" />
@@ -76,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PessoaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bb.designpatterns.proxy.PessoaTest" />
+    <configuration name="TesteAjusteSalarioComStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bb.designpatterns.strategy.TesteAjusteSalarioComStrategy" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.bb.designpatterns.proxy.*" />
+          <option name="PATTERN" value="br.com.bb.designpatterns.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteAgenda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bb.designpatterns.Singleton.TesteAgenda" />
+    <configuration name="TesteAjusteSalarioSemStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bb.designpatterns.strategy.TesteAjusteSalarioSemStrategy" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.bb.designpatterns.Singleton.*" />
+          <option name="PATTERN" value="br.com.bb.designpatterns.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteAgendaSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bb.designpatterns.Singleton.TesteAgendaSingleton" />
+    <configuration name="TesteOperacoesContaCorrenteADapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bb.designpatterns.adapter.TesteOperacoesContaCorrenteADapter" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.bb.designpatterns.Singleton.*" />
+          <option name="PATTERN" value="br.com.bb.designpatterns.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteCriacaoProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bb.designpatterns.factorymethods.TesteCriacaoProduto" />
+    <configuration name="TesteReparoVeiculos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bb.designpatterns.templatemethod.TesteReparoVeiculos" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.bb.designpatterns.factorymethods.*" />
+          <option name="PATTERN" value="br.com.bb.designpatterns.templatemethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TesteAgendaSingleton" />
+        <item itemvalue="Application.TesteReparoVeiculos" />
+        <item itemvalue="Application.TesteAjusteSalarioComStrategy" />
+        <item itemvalue="Application.TesteAjusteSalarioSemStrategy" />
         <item itemvalue="Application.ClasseExemplo" />
-        <item itemvalue="Application.PessoaTest" />
-        <item itemvalue="Application.TesteAgenda" />
-        <item itemvalue="Application.TesteCriacaoProduto" />
+        <item itemvalue="Application.TesteOperacoesContaCorrenteADapter" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +175,8 @@
       <workItem from="1660591652531" duration="5937000" />
       <workItem from="1660703560250" duration="2604000" />
       <workItem from="1660754526036" duration="663000" />
-      <workItem from="1660759377508" duration="14265000" />
+      <workItem from="1660759377508" duration="18644000" />
+      <workItem from="1660793883772" duration="13634000" />
     </task>
     <task id="LOCAL-00001" summary="Outros Patterns">
       <created>1660770639995</created>
@@ -159,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660770639995</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Outros Patterns">
+      <created>1660780923470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660780923470</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,5 +212,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Outros Patterns" />
     <option name="LAST_COMMIT_MESSAGE" value="Outros Patterns" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/bb/designpatterns/strategy/ReajusteAnualSalario.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/bb/designpatterns/Singleton/TesteAgendaSingleton.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -16,6 +16,8 @@ public class AgendaSingletonLAZY {
 
 
     private AgendaSingletonLAZY(){
+        System.setSecurityManager(new SecurityManager());
+
         diasDisponiveis.put("Domingo", Boolean.TRUE);
         diasDisponiveis.put("Segunda", Boolean.TRUE);
         diasDisponiveis.put("Terca", Boolean.TRUE);

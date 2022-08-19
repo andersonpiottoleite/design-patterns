@@ -13,7 +13,7 @@ public class TesteAgendaSingleton {
         reservaDiaEAGER("Terca");
         */
 
-        /*System.out.println(AgendaSingletonLAZY.getInstance());
+        System.out.println(AgendaSingletonLAZY.getInstance());
         System.out.println(AgendaSingletonLAZY.getInstance());
 
         Constructor<AgendaSingletonLAZY> constructorMaldoso = AgendaSingletonLAZY.class.getDeclaredConstructor();
@@ -23,18 +23,18 @@ public class TesteAgendaSingleton {
         System.out.println(agendaSingletonLAZYMaldoso);
 
         reservaDiaLAZY("Segunda");
-        reservaDiaLAZY("Terca");*/
+        reservaDiaLAZY("Terca");
 
-        System.out.println(AgendaSingletonEnum.getInstance().hashCode());
-        System.out.println(AgendaSingletonEnum.getInstance().hashCode());
+       // System.out.println(AgendaSingletonEnum.getInstance().hashCode());
+       // System.out.println(AgendaSingletonEnum.getInstance().hashCode());
 
         /*Constructor<AgendaSingletonEnum> constructorMaldoso = AgendaSingletonEnum.class.getDeclaredConstructor();
         constructorMaldoso.setAccessible(Boolean.TRUE);
         AgendaSingletonEnum agendaSingletonEnumMaldoso = constructorMaldoso.newInstance();
         System.out.println(agendaSingletonEnumMaldoso);*/
 
-        reservaDiaEnum("Segunda");
-        reservaDiaEnum("Terca");/**/
+        //reservaDiaEnum("Segunda");
+       // reservaDiaEnum("Terca");/**/
 
 
     }
