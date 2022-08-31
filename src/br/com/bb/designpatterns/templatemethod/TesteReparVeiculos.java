@@ -1,6 +1,6 @@
 package br.com.bb.designpatterns.templatemethod;
 
-public class TesteReparoVeiculos {
+public class TesteReparVeiculos {
 
     public static void main(String[] args) {
         VeiculoParaReparo veiculoDeLuxo = new VeiculoParaReparo();
@@ -15,7 +15,7 @@ public class TesteReparoVeiculos {
         VeiculoParaReparo veiculoComum = new VeiculoParaReparo();
         veiculoComum.setPorcentagemDano(71);
 
-        ReparoVeiculoService rpc = new ReparoVeiculoComumService(veiculoComum);
+        ReparoVeiculoService rpc = new ReparoVeiculoDeLuxoService(veiculoComum);
 
         rpc.reparaVeiculo();
     }

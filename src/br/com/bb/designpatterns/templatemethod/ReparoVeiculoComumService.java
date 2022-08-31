@@ -10,7 +10,7 @@ public class ReparoVeiculoComumService extends ReparoVeiculoService{
     }
     @Override
     protected boolean veiculoParaReparo() {
-        return !veiculoParaReparo.isQuebrouCambio();
+        return veiculoParaReparo.getPorcentagemDano() <= 70;
     }
 
     @Override

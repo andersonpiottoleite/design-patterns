@@ -10,7 +10,6 @@ public class ReparoVeiculoDeLuxoService extends ReparoVeiculoService{
     }
     @Override
     protected boolean veiculoParaReparo() {
-        return !veiculoParaReparo.isQuebrouMotor() && // motor é muito caro :(
-                !veiculoParaReparo.isQuebrouCambio(); // e o cambio é uma fortuan :(
+        return veiculoParaReparo.getPorcentagemDano() <= 50;
     }
 }
